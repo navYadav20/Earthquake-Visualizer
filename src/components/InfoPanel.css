@@ -1,0 +1,52 @@
+.info-panel {
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #1890ff;
+}
+
+.info-text p {
+    margin: 0 0 10px 0;
+    color: #333;
+    line-height: 1.5;
+}
+
+.info-text p:last-of-type {
+    margin-bottom: 0;
+}
+
+.info-tags {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.tag.live {
+    background-color: #f6ffed;
+    border: 1px solid #b7eb8f;
+    color: #52c41a;
+}
+
+.tag.source {
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+    color: #1890ff;
+}
